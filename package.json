@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A simple chat",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"   
+  }
   "author": "D",
   "license": "BSD",
   "dependencies": {
