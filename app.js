@@ -101,8 +101,9 @@ io.sockets.on("connection", function (socket) {
 });
 
 // Start listening
-var port = process.env.PORT || 7000,
-    host = process.env.HOST || "0.0.0.0";
+
+var port = server.listen(process.env.PORT || 3000),
+ host = process.env.HOST || "0.0.0.0";
 
 server.listen(port, host, function() {
   console.log("Listening on: " + host + ":" + port);
